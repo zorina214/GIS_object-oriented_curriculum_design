@@ -21,7 +21,7 @@ Point::~Point()
 void Point::draw()
 {
     // 绘制点的实现
-    std::cout << "绘制一个点，坐标为 (" << x << ", " << y << ")" << std::endl;
+
 }
 
 void Point::setCoordinates(double x, double y)

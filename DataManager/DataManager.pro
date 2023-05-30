@@ -27,6 +27,7 @@ SOURCES += \
     polyline.cpp \
     read.cpp \
     rectangle.cpp \
+    result.cpp \
     sector.cpp \
     storage.cpp \
     style.cpp \
@@ -44,6 +45,7 @@ HEADERS += \
     polyline.h \
     read.h \
     rectangle.h \
+    result.h \
     sector.h \
     storage.h \
     style.h \

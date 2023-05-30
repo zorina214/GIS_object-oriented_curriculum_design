@@ -29,3 +29,8 @@ Point Polyline::getVertex(int index) const
     else
         return Point(); // 返回一个默认构造的 Point 对象作为错误处理
 }
+
+QVector<Point> Polyline::getVector(const Polyline p)
+{
+    return p.vertices;
+}

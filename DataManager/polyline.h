@@ -20,6 +20,9 @@ public:
     // 获取指定索引处的顶点
     Point getVertex(int index) const;
 
+    //获取所有顶点容器
+    QVector<Point> getVector(const Polyline p);
+
 
 private:
     QVector<Point> vertices; // 存储折线的顶点
