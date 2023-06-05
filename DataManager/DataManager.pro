@@ -22,12 +22,12 @@ SOURCES += \
     geometry.cpp \
     main.cpp \
     mainwindow.cpp \
+    multgeometry.cpp \
     point.cpp \
     polygon.cpp \
     polyline.cpp \
     read.cpp \
     rectangle.cpp \
-    result.cpp \
     sector.cpp \
     storage.cpp \
     style.cpp \
@@ -40,12 +40,12 @@ HEADERS += \
     factory.h \
     geometry.h \
     mainwindow.h \
+    multgeometry.h \
     point.h \
     polygon.h \
     polyline.h \
     read.h \
     rectangle.h \
-    result.h \
     sector.h \
     storage.h \
     style.h \

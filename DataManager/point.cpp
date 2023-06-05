@@ -31,13 +31,13 @@ void Point::setCoordinates(double x, double y)
     this->y = y;
 }
 
-double Point::getX() const
+double Point::getX()
 {
     // 获取点的 x 坐标
     return x;
 }
 
-double Point::getY() const
+double Point::getY()
 {
     // 获取点的 y 坐标
     return y;

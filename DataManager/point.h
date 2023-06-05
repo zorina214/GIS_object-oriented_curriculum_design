@@ -16,10 +16,10 @@ public:
     void setCoordinates(double x, double y);
 
     // 获取点的x坐标
-    double getX() const;
+    double getX();
 
     // 获取点的y坐标
-    double getY() const;
+    double getY();
 
 private:
     double x;   // x坐标
